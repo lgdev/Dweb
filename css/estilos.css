@@ -293,16 +293,11 @@ justify-content: space-between
     background-position-x: 5px;
 border-radius: 5px;
 border-style: solid;
+text-decoration: bold;
+
 
 }
 
 .form-email button{
-    display: block;
-  
-    background: transparent;
-    color: white;
-    padding: 5px 0;
-    border-radius: 5px;
-    width: 100px;
-    margin: 10px auto 0;
+    margin: 10px 11px 12px 
 }
