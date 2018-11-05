@@ -193,3 +193,116 @@ vertical-align: middle;
 .footer a {
     color: white;
 }
+
+.event{
+    
+    margin: 10px;
+    width: 480px;
+    border-radius: 10px;
+    overflow: hidden; 
+    flex-shrink: 0;
+    background: #f4fbff;
+
+}
+
+.event-list{
+    display: flex;
+}
+
+.event img{
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.event-detail {
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+text-align: center;
+}
+
+.event-description{
+    text-align: left;
+}
+
+.event-url
+{
+    border: 1px solid #056fff;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #026fff;
+    border-radius: 5px;
+    
+}
+
+.event-list-title {
+
+margin-left: 10px;
+}
+
+.contact{
+    background-color: #056fff;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+justify-content: space-between
+}
+
+.social{
+    
+}
+
+.social-link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+   
+}
+
+.social-link.twitter{
+    background-image: url('../images/twitter.svg');
+    background-size: 50px;
+}
+
+.social-link.facebook{
+    background-image: url('../images/facebook.svg');
+    background-size: 50px;
+}
+
+.social-link.github{
+    background-image: url('../images/github.svg');
+    background-size: 50px;
+}
+
+.social-link.instagram{
+    background-image: url('../images/instagram.svg');
+    background-size: 50px;
+}
+
+.form-email input{
+    border-color: gray;
+    padding: 5px 20px 5px 25px;
+    background-image: url('../images/envelope.svg');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+border-radius: 5px;
+border-style: solid;
+
+}
+
+.form-email button{
+    display: block;
+  
+    background: transparent;
+    color: white;
+    padding: 5px 0;
+    border-radius: 5px;
+    width: 100px;
+    margin: 10px auto 0;
+}
